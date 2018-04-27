@@ -91,12 +91,12 @@ export class TinyEditorComponent implements OnInit, OnDestroy, AfterViewInit, Co
         if (this.config.useInputsMenuList) {
           editor.addButton('inputs', {
             type: 'menubutton',
-            text: '@{input}',
+            text: '@input',
             icon: false,
             menu: this.config.inputsMenuList.map(c => {
               return {
                 text: c.name,
-                value: `@{${c.name}} `,
+                value: `${c.name} `,
                 onclick: function () {
                   editor.insertContent(this.value());
                 }
@@ -116,7 +116,7 @@ export class TinyEditorComponent implements OnInit, OnDestroy, AfterViewInit, Co
             delay: 0,
             items: 50,
             insert: function (item) {
-              return '@{' + item.name + '} ';
+              return item.name;
             },
             source: function (query, success) {
               success(allMenuItems);
