@@ -1,0 +1,21 @@
+<div id="app-container">
+  <h4>Tiny Editor - an Angular component using tinymce.js, with customization for adding menus and autocompletion</h4>
+  <h5>If @input menu is enabled, start typing @ to use autocompletion</h5>
+  <app-tiny-editor
+    class="tiny-editor-mentions"
+    [elementId]="'tiny-editor-baseball'"
+    [formControl]="formGroup.controls['baseballData']"
+    [(ngModel)]="baseballData"
+    [config]="tinyEditorConfig">
+  </app-tiny-editor>
+
+  <span class="error-msg" *ngIf="!formGroup.controls['baseballData'].valid && formGroup.controls['baseballData'].touched">This field is required.</span>
+  <br><br>
+
+  <div>
+    <button class="btn btn-primary" (click)="showHtml()">show html from tiny editor</button>
+    <br><br>
+    <textarea>{{baseballData}}</textarea>
+    <span [innerHtml]="baseballData == undefined ? '' : baseballData | safeHtml"></span>
+  </div>
+</div>
