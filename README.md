@@ -8,25 +8,25 @@ There is now an official TinyMCE angular component (https://www.npmjs.com/packag
 
 The functionality I added to this custom angular-tiny-editor component includes the ability to add additional dropdown menus to the menu bar and the ability to use an external plugin for autocompletion, which pulls its data from the additional dropdown menu.  Thanks to https://stevendevooght.github.io/tinyMCE-mention/javascripts/tinymce/plugins/mention/plugin.js for the handy tinymce mention plugin.
 
-## Dependencies
+## Installation and Dependencies
 
 Clone the repository and run
 
-  npm install
+    npm install
 
-  to install all modules, and then run
+    to install all modules, and then run
 
-  npm start
+    npm start
   
-  to run the application at http://localhost:4200
+    to run the application at http://localhost:4200
 
 This project was built with the Angular CLI, and besides the usual list of modules installed, I also installed
 
-bootstrap ver 3.3.7,
+    bootstrap ver 3.3.7,
 
-jquery ver 3.3.1,
+    jquery ver 3.3.1,
 
-tinymce ver 4.7.11
+    tinymce ver 4.7.11
 
 and all of these dependencies will be installed for you when you run npm install.
 
