@@ -28,4 +28,8 @@ jquery ver 3.3.1,
 
 tinymce ver 4.7.11
 
-and all of these dependencies were be installed for you when you run npm install.
+and all of these dependencies will be installed for you when you run npm install.
+
+## Screenshots of the tiny editor component with additional features added
+
+
