@@ -31,5 +31,6 @@ tinymce ver 4.7.11
 and all of these dependencies will be installed for you when you run npm install.
 
 ## Screenshots of the tiny editor component with additional features added
-
+![capture](https://user-images.githubusercontent.com/2858742/39389628-55b5deac-4a58-11e8-91b2-98f196726c74.JPG)
+![capture1](https://user-images.githubusercontent.com/2858742/39389629-584120fa-4a58-11e8-8051-38c795b20679.JPG)
 
