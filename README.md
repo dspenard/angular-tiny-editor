@@ -12,16 +12,20 @@ The functionality I added to this custom angular-tiny-editor component includes 
 
 Clone the repository and run
 
-npm install
-to install all modules, and then run
+  npm install
 
-npm start
-to run the application at http://localhost:4200
+  to install all modules, and then run
+
+  npm start
+  
+  to run the application at http://localhost:4200
 
 This project was built with the Angular CLI, and besides the usual list of modules installed, I also installed
 
 bootstrap ver 3.3.7,
+
 jquery ver 3.3.1,
+
 tinymce ver 4.7.11
 
 and all of these dependencies were be installed for you when you run npm install.
