@@ -12,7 +12,7 @@ Thanks to https://stevendevooght.github.io/tinyMCE-mention/javascripts/tinymce/p
 
 ## Installation and Dependencies
 
-Clone the repository and run
+Clone the repository, which contains a sample Angular application demonstrating the angular-tiny-editor component.  To run the application:
 
     npm install
     to install all modules, and then run
@@ -27,6 +27,14 @@ This project was built with the Angular CLI, and besides the usual list of modul
     tinymce ver 4.7.11
 
 and all of these dependencies will be installed for you when you run npm install.
+
+To use the angular-tiny-editor component in your own Angular application, do the following:
+
+    1) Copy the tiny-editor component folder to your desired location.
+    
+    2) Modify your app.module.ts (or whatever module you choose) accordingly to import TinyEditorComponent and declare it.
+    
+    3) Use npm to install the specific versions of the 3 dependencies noted above.  I haven't tried any other versions, so there are no promises older or newer versions will work.
 
 ## Screenshots of the tiny editor component with additional features added
 ![capture](https://user-images.githubusercontent.com/2858742/39389628-55b5deac-4a58-11e8-91b2-98f196726c74.JPG)
