@@ -1,5 +1,5 @@
 # angular-tiny-editor
-Angular component using tinymce.js, with customization for adding menus and autocompletion
+Angular 4 component using tinymce.js, with customization for adding menus and autocompletion
 
 ## Background
 I created this component because I was using the tinymce-editor component (now called angular-tinymce, https://www.npmjs.com/package/angular-tinymce) but it was consistently failing miserably in Safari, and in Chrome and Firefox I was seeing sporadic errors.
